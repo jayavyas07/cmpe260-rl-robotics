@@ -2,7 +2,7 @@
 
 PyTorch baseline for our CMPE 260 (San José State University) survey and lecture on reinforcement learning for robotics and continuous control.
 
-**Team:** Jaya Vyas, Prachi Gupta, Yashaswini Dinesh, Keerthana Muralidharan, Akshata Madavi, Shilpa Yelkur Ramakrishnaiah
+**Team:** Jaya Vyas, Prachi Gupta, Yashaswini Dinesh, Keerthana Muralidharan, Akshata Madavi, Shilpa Yelkur Ramakrishnaiah, Archana Shivashankar
 
 It implements **proximal policy optimization (PPO)** for continuous actions and adds optional **domain (dynamics) randomization**: every episode, each body mass and each friction coefficient of the simulated robot is redrawn. Training one policy with nominal physics and one with randomization, then testing both on robots with changed mass and friction, reproduces at a small scale the sim-to-real idea the survey covers (Peng et al., 2018; Hwangbo et al., 2019; Radosavovic et al., 2024).
 
@@ -21,7 +21,7 @@ It implements **proximal policy optimization (PPO)** for continuous actions and 
 Python 3.10 or newer, on Linux, macOS or Windows. MuJoCo is installed from pip; no separate download or license is needed.
 
 ```bash
-git clone https://github.com/jayavyas0701/cmpe260-rl-robotics.git
+git clone https://github.com/jayavyas07/cmpe260-rl-robotics.git
 cd cmpe260-rl-robotics
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
