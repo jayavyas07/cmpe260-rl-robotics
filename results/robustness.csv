@@ -1,0 +1,11 @@
+model,condition,mean_return,std
+hopper-nominal,nominal,2290.9,755.4
+hopper-nominal,mass x0.75,3679.5,14.6
+hopper-nominal,mass x1.25,700.3,77.9
+hopper-nominal,friction x0.5,333.5,17.3
+hopper-nominal,"mass x1.25, friction x0.5",331.9,4.2
+hopper-dr,nominal,1369.0,57.5
+hopper-dr,mass x0.75,1517.6,66.5
+hopper-dr,mass x1.25,942.2,10.7
+hopper-dr,friction x0.5,618.3,15.1
+hopper-dr,"mass x1.25, friction x0.5",504.4,8.1
